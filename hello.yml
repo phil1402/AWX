@@ -1,10 +1,10 @@
 ---
-- hosts: centos9
+- hosts: all
   gather_facts: no
   vars:
 
   tasks:
-    - name: Let's say Hello World
-      debug:
-        msg: "Hello World!"
+  - name: Let's say Hello World
+    debug:
+      msg: "Hello World!"
 
