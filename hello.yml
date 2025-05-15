@@ -3,8 +3,8 @@
   gather_facts: no
   vars:
 
-- tasks:
-    - name: Let's say Hello World
-      debug:
-        msg: "Hello World!"
+  - tasks:
+      - name: Let's say Hello World
+        debug:
+          msg: "Hello World!"
 
