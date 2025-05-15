@@ -1,5 +1,7 @@
 ---
-- hosts: all 
+- hosts: centos9
+  gather_facts: no
+  vars:
 
 - tasks:
     - name: Let's say Hello World
